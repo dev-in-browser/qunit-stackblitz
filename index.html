@@ -1,0 +1,28 @@
+<html>
+<head>
+  <link href="https://code.jquery.com/qunit/qunit-2.6.1.css" rel="stylesheet">
+
+  <title>qunit-starter</title>  
+</head>
+<body>
+<div class="main-ui">
+  <div id="app"></div>
+</div>
+<div class="test-ui">
+  <div class="header">
+    <button class='toggle-button' onclick="{
+      var elem = document.querySelector('.test-ui');
+      if (elem.classList.contains('open')) {
+        elem.classList.remove('open');
+      } else {
+        elem.classList.add('open');
+      }
+    }">Tests</button>
+  </div>
+  <div class="qunit-container">
+    <div id="qunit"></div>
+    <div id="qunit-fixture"></div>
+  </div>
+</div>
+</body>
+</html>

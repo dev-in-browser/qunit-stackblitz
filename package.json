@@ -1,0 +1,9 @@
+{
+  "name": "qunit-starter",
+  "description": "",
+  "homepage": "https://stackblitz.com/edit/qunit-starter",
+  "dependencies": {
+    "qunit": "2.6.1"
+  },
+  "version": "1.0.0"
+}

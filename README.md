@@ -1,2 +1,1 @@
-# qunit-stackblitz
-A QUnit starter that works with stackblitz
+# [qunit-starter](https://stackblitz.com/edit/qunit-starter)

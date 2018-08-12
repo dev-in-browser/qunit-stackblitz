@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+}
+
+#qunit {
+  overflow: scroll;
+}
+#qunit-modulefilter {
+  max-width: 100%;
+}
+#qunit-modulefilter-search {
+  width: inherit;
+}
+#qunit-modulefilter-dropdown {
+  max-width: 100%;
+}
+#qunit-tests .fail {
+  width: calc(100% - 30px);
+}
+#qunit-banner {
+  height: 10px;
+}
+
+#qunit-tests .fail table {
+  width: 100%;
+  table-layout: fixed;
+}
+#qunit-tests .fail table tr th {
+  width: 80px;
+}
+#qunit-userAgent,
+#qunit-header,
+#qunit-testrunner-toolbar,
+#qunit-testresult {
+  display: none;
+}
+.test-ui  {
+  background: #ddd;
+  margin: 0px;
+  position: absolute;
+  bottom: -190px;
+  height: 200px;
+  width: 100%;
+  box-shadow: 1px -3px 3px rgba(0, 0, 0, 0.5);
+  transition: bottom 0.25s ease-in-out;
+}
+.test-ui.open {
+  bottom: 10px;
+}
+
+.test-ui .header {
+  height: 0;
+}
+.test-ui .header .toggle-button {
+  margin: 4px;
+  position: relative;
+  font-weight: bold;
+  top: -25px;
+  background: #ddd;
+  border: none;
+  padding: 4px 8px;
+  box-shadow: 0 -3px 1px rgba(0, 0, 0, 0.5);
+}
+
+.test-ui .header .toggle-button.pass {
+  background-color: #C6E746;
+}
+
+.test-ui .header .toggle-button.fail {
+  background-color: #EE5757;
+}
+
+.test-ui .qunit-container {
+  height: 210px;
+  overflow-y: scroll;
+}
